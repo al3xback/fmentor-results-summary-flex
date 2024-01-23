@@ -1,7 +1,7 @@
 {
 	"name": "fmentor-results-summary-flex",
 	"version": "1.0.0",
-	"description": "nft preview card component using display flex",
+	"description": "results summary component using display flex",
 	"main": "index.js",
 	"scripts": {
 		"sass-dev": "sass --watch scss/main.scss css/main.css",
