@@ -17,7 +17,7 @@
 	background-color: var.$color-white;
 	margin: 0 0 func.em(60);
 	border-radius: 0 0 32px 32px;
-	box-shadow: 0 30px 60px rgba(0, 0, 0, 0.04);
+	box-shadow: 24px 40px 30px rgba(0, 0, 0, 0.04);
 	overflow: hidden;
 }
 
@@ -107,19 +107,26 @@
 	color: var.$color-cobalt-blue;
 }
 
-.card__data-item-title {
+.card__data-img {
+	width: func.em(20);
+	height: auto;
+}
+
+.card__data-title {
 	flex-grow: 1;
 	font-size: func.em(16);
 	color: inherit;
 }
 
-.card__data-item-score {
+.card__data-score {
 	display: flex;
+	flex: none;
 	gap: func.em(6);
+	font-weight: var.$font-weight-700;
 	color: var.$color-dark-gray-blue;
 }
 
-.card__data-item-score span:last-child {
+.card__data-score span:last-child {
 	opacity: 0.5;
 }
 
