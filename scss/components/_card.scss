@@ -3,12 +3,17 @@
 
 .card,
 .card__result,
-.card__summary,
 .card__chart,
 .card__desc,
+.card__summary,
 .card__data-list {
 	display: flex;
 	flex-direction: column;
+}
+
+.card__data-item,
+.card__data-score {
+	display: flex;
 }
 
 .card {
@@ -80,7 +85,6 @@
 }
 
 .card__data-item {
-	display: flex;
 	align-items: center;
 	gap: func.em(12);
 	padding: func.em(16);
@@ -119,7 +123,6 @@
 }
 
 .card__data-score {
-	display: flex;
 	flex: none;
 	gap: func.em(6);
 	font-weight: var.$font-weight-700;
